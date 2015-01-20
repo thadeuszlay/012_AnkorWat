@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Angkor Wat</title>
+<style>
+div{
+	margin: 0 auto;
+	background-color: black;
+}
+.top{
+	width: 10px;
+	height: 0;
+	border-bottom: 44px solid black;
+	border-right: 22px solid green;
+	border-left: 22px solid green;
+}
+.top::after{
+				content: "";
+				width: 200px;
+				height: 100px;
+   			background-color: black;
+   			position: absolute;
+   			left: 60px;
+   			box-shadow:     
+   				285px 0 0 purple,
+    				190px 110px 0 red,
+    				95px 110px 0 green;
+}
+</style>
+
+</head>
+<body>
+<div class="top"></div>
+</body>
+</html>
